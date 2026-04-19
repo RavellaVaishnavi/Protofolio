@@ -15,7 +15,7 @@ spec:
       containers:
       - name: portfolio
         image: my-portfolio:v1
-        imagePullPolicy: Never # Crucial for using the local image
+        imagePullPolicy: Never 
         ports:
         - containerPort: 5000
 ---
